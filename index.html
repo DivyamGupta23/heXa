@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #445B80"></canvas>
-    <script src="Build/WebGlBuild1.loader.js"></script>
+    <script src="Build/BuildNew.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/WebGlBuild1.data",
-        frameworkUrl: "Build/WebGlBuild1.framework.js",
-        codeUrl: "Build/WebGlBuild1.wasm",
+        dataUrl: "Build/BuildNew.data",
+        frameworkUrl: "Build/BuildNew.framework.js",
+        codeUrl: "Build/BuildNew.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Lev1",
         productName: "heXa",
