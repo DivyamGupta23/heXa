@@ -1,5 +1,7 @@
 # heXa
-A Unity Game in works
+A Unity Game in work
+
+
 Try it out here: https://divyamgupta23.github.io/heXa/
 
 ![image](https://user-images.githubusercontent.com/95400068/224227619-739b0de1-71a9-44a5-8573-2ffc433f5696.png)
